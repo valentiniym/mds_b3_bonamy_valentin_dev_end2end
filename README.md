@@ -1,1 +1,5 @@
-# mds_b3_bonamy_valentin_dev_end2end
+Pour lancer les tests :
+
+Revoir le fichier package.json :
+
+> ./node_modules/.bin/nightwatch ./tests/uber.js
