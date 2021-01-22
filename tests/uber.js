@@ -15,6 +15,7 @@ describe('Uber example', function() {
     });
 
 /*
+
 // Exemple pour basculer sur du XPATH
 .useXpath() 
    .waitForElementPresent('//button[@id="/sign-in/"]')
