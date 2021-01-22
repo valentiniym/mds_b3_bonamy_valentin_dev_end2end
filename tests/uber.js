@@ -1,11 +1,11 @@
-describe('Ecosia example', function() {
+describe('Uber example', function() {
 
-    beforeEach(browser => browser.url('https://www.ecosia.org/'));
+    beforeEach(browser => browser.url('https://www.uber.com/fr/fr/'));
 
-    test('Demo test ecosia.org', function (browser) {
+    test('Demo test uber.com', function (browser) {
       browser
         .waitForElementVisible('body')
-        .assert.titleContains('Ecosia')
+        .assert.titleContains('Uber')
         .assert.visible('input[type=search]')
         .setValue('input[type=search]', 'nightwatch')
         .assert.visible('button[type=submit]')

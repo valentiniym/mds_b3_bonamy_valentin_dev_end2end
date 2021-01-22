@@ -8,7 +8,7 @@ nightwatch_config = {
     test_settings: {
       default: {
         desiredCapabilities: {
-          'browserstack.user': 'geoffrey22',
+          'browserstack.user': 'Valentin Bonamy',
           'browserstack.key': 'yAPbfqqtpsuvQ9ruQr9U',
           'browser': 'chrome',
           'name': 'Bstack-[Nightwatch] Test'
