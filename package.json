@@ -22,7 +22,9 @@
   "dependencies": {
     "chromedriver": "^87.0.7",
     "geckodriver": "^1.21.1",
-    "nightwatch": "^1.5.1",
     "selenium-server": "^3.141.59"
+  },
+  "devDependencies": {
+    "nightwatch": "^1.5.1"
   }
 }
